@@ -1,11 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<package xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>{{PackageName}}</id>
-    <title>{{PackageName}}</title>
-    <version>{{PackageVersion}}</version>
+    <id>digikam</id>
+    <title>digikam</title>
+    <version>6.2.0</version>
     <authors>digiKam team</authors>
-    <owners>dtgm</owners>
+    <owners>ericmoon</owners>
     <summary>Manage your photographs like a professional</summary>
     <description>
 digiKam is an advanced digital photo management application for KDE, which makes importing and organizing digital photos a "snap". The photos are organized in albums which can be sorted chronologically, by folder layout or by custom collections.
@@ -16,25 +17,22 @@ digiKam is an advanced digital photo management application for KDE, which makes
 
 [Screenshots](https://www.digikam.org/node/323)
     </description>
-    <packageSourceUrl>https://github.com/dtgm/chocolatey-packages/tree/master/automatic/{{PackageName}}/</packageSourceUrl>
     <projectUrl>https://www.digikam.org/</projectUrl>
-    <projectSourceUrl>https://www.digikam.org/download?q=download/GIT</projectSourceUrl>
-    <bugTrackerUrl>https://bugs.kde.org/component-report.cgi?product=digikam</bugTrackerUrl>
-    <docsUrl>https://www.digikam.org/docs</docsUrl>
-    <mailingListUrl>https://www.digikam.org/support</mailingListUrl>
     <tags>photo organizer kde admin</tags>
     <copyright>© 2001 digiKam team</copyright>
     <licenseUrl>https://gnu.org/licenses/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://cdn.rawgit.com/dtgm/chocolatey-packages/5e0b5f9f8a32b6ec0146e718fe62edc6908c2362/icons/digikam.svg</iconUrl>
     <releaseNotes>
 #### Program
 * [Roadmap](https://www.digikam.org/about/releaseplan)
 * [Changelog](https://www.digikam.org/changelog)
-
-#### Package
-* Automatically built and uploaded by [dtgm](https://chocolatey.org/profiles/dtgm)
-    </releaseNotes>
+</releaseNotes>
+    <iconUrl>https://github.com/ericmoon/chocolatey-packages/raw/master/icons/digikam.svg</iconUrl>
+    <docsUrl>https://www.digikam.org/docs</docsUrl>
+    <packageSourceUrl>https://github.com/ericmoon/chocolatey-packages/tree/master/digikam/</packageSourceUrl>
+    <mailingListUrl>https://www.digikam.org/support</mailingListUrl>
+    <bugTrackerUrl>https://bugs.kde.org/component-report.cgi?product=digikam</bugTrackerUrl>
+    <projectSourceUrl>https://www.digikam.org/download?q=download/GIT</projectSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
