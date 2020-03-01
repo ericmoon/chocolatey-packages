@@ -12,3 +12,4 @@ $key | ForEach-Object {
                               -SilentArgs "$($silentArgs)" `
                               -File "$($_.UninstallString.Replace('"',''))" `
                               -ValidExitCodes $validExitCodes
+}
